@@ -1,0 +1,88 @@
+h1, h2, h3, h4, h5, h6 {
+	color: #085273;
+}
+
+a:link {
+	color: white;
+}
+
+#link-rd {
+	color: #cc0000;
+}
+
+a:visited {
+	color: white;
+}
+
+.row-header {
+	margin: 0px auto;
+	padding: 0px auto;
+}
+
+.row-content {
+	margin: 0px auto;
+	padding: 50px 0 50px 0;
+	border-bottom: 1px ridge;
+	min-height: 400px;
+}
+
+.footer {
+	background-color: #D1C4E9;
+	margin: 0px auto;
+	padding: 20px 0 20px 0;
+}
+
+body {
+    padding: 50px 0 0 0;
+	z-index: 0;
+}
+
+.navbar-dark 
+	background-color: black;
+}
+
+.jumbotron {
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+}
+
+.banner-color {
+	background-color: #218EC0;
+}
+
+#bg-primary {
+	background-color: #218EC0;
+}
+
+#bg-secondary {
+	background-color: rgb(8, 82, 115);
+}
+
+#bg-secondary-alt {
+	background: rgb(2,0,36);
+	background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(8,82,115,1) 35%, rgba(33,142,192,1) 100%);
+}
+
+
+
+.primary-color {
+	color: #218EC0;
+}
+
+.secondary-color {
+	color: #085273;
+}
+
+.accent-color {
+	color: #CA374B;
+}
+
+address {
+	font-size: 80%;
+	margin: 0px;
+	color: #CA374B;
+}
+
+#off-white-clr {
+	color: ##3c3e3f;
+}

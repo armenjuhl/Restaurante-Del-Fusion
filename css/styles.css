@@ -111,3 +111,7 @@ address {
   min-width: 100%;
 }
 
+.btn-yellow {
+  background-color: #ffd000;
+  color: black;
+}

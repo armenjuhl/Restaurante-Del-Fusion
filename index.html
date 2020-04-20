@@ -52,9 +52,11 @@
       <div class="col-12 col-sm-3 text-center">
         <img src="img/logo.png" class="img-fluid">
       </div>
-      <div class="col-12 col-sm-3">
-        <a class="btn btn-block btn-sm btn-yellow btn-warning" href="#ReserveTable" role="button">Reserve
-          Table</a>
+      <div class="col-12 col-sm-3 align-self-center">
+        <a role="button" class="btn btn-block btn-yellow btn-warning nav-link" data-toggle="tooltip"
+           data-html="true" title="Or call us at <br><strong>+1(510)-2350</strong>"
+        data-plaement="bottom" href="#ReserveTable">
+          Reserve Table</a>
       </div>
     </div>
   </div>
@@ -121,14 +123,14 @@
     </div>
   </div>
   <div class="row row-content align-items-center">
-    <div class="col-12 col-sm-8 offset-sm-2">
+    <div class="col-12 col-md-8 offset-sm-2">
       <div class="card">
         <h3 id="bg-primary" class="card-header text-white">Reserve a Table</h3>
         <div class="card-body">
           <form class="form">
             <div class="form-group row">
-              <label for="guests_sum" class="col-12 col-sm-2">Number of Guests</label>
-              <div id="guests_sum" class="col-md-10 align-content-center">
+              <label for="guests_sum" class="col-12 col-sm-3 col-md-3">Number of Guests</label>
+              <div id="guests_sum" class="col-sm-9 align-content-center">
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="exampleRadios"
                          id="radio-1" value="idx-option-1" checked>
@@ -162,8 +164,8 @@
               </div>
             </div>
             <div class="form-group row">
-              <label for="date_and_time" class="col-md-2 col-form-label">Date and Time</label>
-              <div id="date_and_time" class="form-row col-12 col-sm-10">
+              <label for="date_and_time" class="col-sm-3 col-form-label">Date and Time</label>
+              <div id="date_and_time" class="form-row col-12 col-sm-9">
                 <div class="col-12 col-sm-4">
                   <input type="text" class="form-control" id="date" name="date" placeholder="Date">
                 </div>
@@ -173,7 +175,7 @@
               </div>
             </div>
             <div class="form-group row" id="ReserveTable">
-              <div class="col-3 offset-sm-2">
+              <div class="col-3 offset-sm-3">
                 <button type="submit" class="btn btn-primary">
                   Reserve
                 </button>
@@ -238,6 +240,11 @@
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('[data-toggle="tooltip"]').tooltip()
+  });
+</script>
 </body>
 
 </html>

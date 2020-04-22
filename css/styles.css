@@ -141,3 +141,7 @@ address {
 .cursor-pointer {
   cursor: pointer;
 }
+
+.ml-neg-4 {
+  margin-left: -4px !important;
+}

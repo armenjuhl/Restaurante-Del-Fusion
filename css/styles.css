@@ -123,6 +123,14 @@ address {
   padding: 10px;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.ml-neg-4 {
+  margin-left: -4px !important;
+}
+
 .carousel {
   background: #fa8072;
 }
@@ -138,10 +146,9 @@ address {
   min-height: 300px;
 }
 
-.cursor-pointer {
-  cursor: pointer;
-}
-
-.ml-neg-4 {
-  margin-left: -4px !important;
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
 }

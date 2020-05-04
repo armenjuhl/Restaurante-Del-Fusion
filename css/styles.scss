@@ -1,11 +1,13 @@
 $lt-gray: #ddd;
-$background-dark: #512DA8;
-$background-light: #9575CD;
+//$background-dark: #512DA8;
+//$background-light: #9575CD;
 $background-pale: #D1C4E9;
 $background-primary: rgb(8, 82, 115);
 $background-secondary: #fa8072;
 $background-alt: #72ecfa;
-$background-footer: #D1C4E9;
+//$background-footer: #D1C4E9;
+$aqua-complimentary-color: #e4fbfe;
+$blue-comp-color: #72cafa;
 
 
 // Height variables
@@ -27,13 +29,13 @@ $carousel-item-height: 300px;
 }
 
 .footer {
-  background-color: $background-footer;
+  background-color: $background-alt;
   @include zero-margin(20px, 0px);
 }
 
 .jumbotron {
   @include zero-margin(70px, 30px);
-  background: $background-primary;
+  background: $background-alt;
 }
 
 address {
@@ -48,7 +50,7 @@ body {
 }
 
 .navbar-dark {
-  background-color: $background-dark;
+  background-color: $background-alt;
 }
 
 .tab-content {
@@ -76,4 +78,17 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px;
+}
+
+.modal-content{
+  .modal-header{
+    background-color: $background-alt;
+  }
+  .modal-body{
+    background-color: $aqua-complimentary-color;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }

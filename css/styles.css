@@ -9,14 +9,14 @@
   min-height: 400px; }
 
 .footer {
-  background-color: #D1C4E9;
+  background-color: #72ecfa;
   margin: 0px auto;
   padding: 20px 0px; }
 
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #085273; }
+  background: #72ecfa; }
 
 address {
   font-size: 80%;
@@ -28,7 +28,7 @@ body {
   z-index: 0; }
 
 .navbar-dark {
-  background-color: #512DA8; }
+  background-color: #72ecfa; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -49,5 +49,13 @@ body {
 #carouselButton {
   right: 0px;
   position: absolute;
-  bottom: 0px;
-  z-index: 1;}
+  bottom: 0px; }
+
+.modal-content .modal-header {
+  background-color: #72ecfa; }
+
+.modal-content .modal-body {
+  background-color: #e4fbfe; }
+
+.cursor-pointer {
+  cursor: pointer; }
